@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+        height: 100px;
+       background-color: black;
+        background-attachment: fixed;
+        background-size: cover;
+      
+    }
+
+
+
+
+    nav ul {
+        opacity: 80%;
+        background-color: black;
+        padding: 20px;
+        text-align:center;
+        font-size: 1.1em;
+    }
+    
+    ul {
+        float: right;
+        list-style-type:none;
+        margin-top: 25px;
+    }
+    
+    ul li {
+        display: inline-block;
+        border: 2px solid gray;
+        border-radius: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 1s ease;
+        position: static;
+    }
+    
+    ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    ul li.active a{
+        background-color: white;
+        color: black;
+    }
+    
+
+body {
+    background: url("images/pic.jpg")
+    
+    repeat fixed 100%;
+}
+
+.logo img{
+    border: 3px solid rgb(255, 0, 140);
+    float:left;
+    width: 112px;
+    height: 100px;
+}
+
+#active{
+    border:2px solid rgb(179, 21, 147);
+}
+article {
+    border: 20px;
+    margin: auto;
+}
+
+
+
+
+.intro p
+{
+font-size: 30px;
+}
+
+
+
+
+
+ article
+{
+max-width: 900px;
+max-height: 710px;
+background-color: rgb(0, 0, 0);
+ text-align: center;
+ border: 2px solid rgb(203, 20, 213);
+ padding-right: 130px;
+ padding-bottom: 160px;
+ padding-left: 80px;
+ border-radius: 1px;
+ margin: auto
+}
+
+
+h1{
+
+    font-size: 40px;
+    text-align: center;
+    font-family:serif;
+   color: white;
+}
+
+
+
+article h2 {
+    text-align: center;
+    padding: left 16px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    text-align: center;
+    color: white;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+
+footer {
+    padding: 1%;
+    margin: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: black
+    
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+aside {
+    padding-left: 1500px;
+}
+
+iframe 
+{
+    padding-bottom: 20px;
+    border: 2px solid rgb(233, 0, 97);
+}

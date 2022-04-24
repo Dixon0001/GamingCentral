@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+   background-repeat: no-repeat;
+    height: 100px;
+   background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    background: url("images/pic.jpg")
+    
+    repeat fixed 30%;
+}
+
+#active{
+    border:2px solid rgb(179, 21, 147);
+}
+
+nav ul {
+    opacity: 80%;
+    background-color: black;
+    padding: 20px;
+    text-align:center;
+    font-size: 1.1em;
+}
+
+ul {
+    float: right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 1s ease;
+    position: static;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+
+.logo img{
+   border: 3px solid rgb(255, 0, 140);
+    float:left;
+    width: 112px;
+    height: 100px;
+}
+
+#active{
+    border:2px solid rgb(179, 21,4 147);
+}
+
+
+.intro p
+{
+font-size: 30px;
+}
+
+
+
+
+article
+    {
+    max-width: 900px;
+    max-height: 750px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid rgb(203, 20, 213);
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    border-radius: 1px;
+    margin: auto;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+}
+
+
+
+
+article h2 {
+    text-align: center;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img
+{
+    border: 4px solid rgb(8, 222, 230);
+}
+
+p {
+
+    word-spacing: 7px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 60px;
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+footer {
+    padding: 1%;
+    margin: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: black
+    
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}

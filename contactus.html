@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!----These are comments
+Author - Jack Monaghan
+Purpose : contact page-->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta charset="utf-8" /> <!---8-bit character encoding capable of encoding all characters-->
+    <meta name="description" content="Contact us, send a query">
+    <meta name="keywords" content="Contact, Query, Email">
+    <link rel="stylesheet" type="text/css" href="stylecontactus.css">
+    </head>
+
+    <body background="images/pic.jpg"></body>     <!--Body Tag Start of Body Section display on screen -->
+    <header>
+        <section>
+        <div class="logo">
+             <img src="images/logo.png">
+         </div>
+         <nav>
+         <ul>
+            <li><a href="index.html">HOME</a></li>    
+            <li><a href="games.html">VIDEO GAMES</a></li>
+            <li><a href="Videos.html">VIDEO GAME TRAILERS</a></li>
+            <li id="active"><a href="contactus.html">CONTACT US</a></li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+    </section>
+
+</head>
+<body> <!--Body Tag Start of Body Section display on screen -->
+    <h1>PLEASE FILL OUT THE FORM BELOW AND SUBMIT</h1>
+<main>   
+    <nav>
+        <h2>OUR LOCATION:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13224.553608104117!2d-118.2695624!3d34.0403207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf629c020e23429b5!2sLos%20Angeles%20Convention%20Center!5e0!3m2!1sen!2sie!4v1650810616873!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </nav>
+    <section class="contact">
+
+        <h3>Please enter the following information:</h3>
+        <form action="http://www.youtube.com" method = "post">
+
+        <label for="first_name">First name:<span class="required">*</span></label>
+        <input type="text" name="first_name" id="first_name" autofocus required><br>
+        <label for = "Last_name">Last name:<span class = "required">*</span></label>
+        <input type ="text" name ="last_name" id = "last_name" required><br>
+        <label for="email">Email:<span class="required">*</span></label>
+        <input type="email" name="email" id="email" required placeholder="johndoe@example.com">
+        <br>
+
+        <label for ="gender">Gender:</label>
+        <input type ="radio" id ="gender" name="gender" value="male"> Male
+        <input type ="radio" id="gender" name = "gender" value ="female"> Female 
+        <fieldset>
+        <input type="checkbox" id="internet" name="internet" value="Question" checked> General Question <br>
+        <input type ="checkbox" class="marginl"id="hearr" name="Issue" value ="paper"> Issue Regarding a Game <br>
+        <input type ="checkbox" class="marginl"id="hear" name="Add" value ="Add">Other<br>
+        </fieldset>
+        <br>
+        <label gor="message">Query:</label>
+
+        <textarea cols="48"rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters"
+        data-maxlength="200"></textarea> <br>
+
+        <input type ="submit" name ="submit" id="button" value="Submit">
+        <input type ="reset" name="reset" id="reset">
+
+        </form>
+        <p style="margin-left: 138px"> <span class="required">*</span> <em>Indicates a required field</em> </p>
+    </section>  
+</main>
+<footer><!--Footer is the grouping of content for the bottom of the screen and will need cass to place at the botto, -->
+    <center><p>COPYRIGHT &copy;2022 GAMING CENTRAL</p></center>
+    </footer>   
+</body>
+
+</html>

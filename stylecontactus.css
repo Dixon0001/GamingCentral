@@ -1,0 +1,206 @@
+
+    
+    header{
+            height: 100px;
+           background-color: black;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    main {
+        max-width: 1920;
+        max-height: 1080;
+    }
+            
+            body {
+                background-image: url(images/pic.jpg);
+            }
+
+            h1 
+            {
+                padding-top: 90px;
+                padding-left: 600px;
+                position: absolute;
+                color: white;
+            }
+
+        
+        nav ul {
+            opacity: 80%;
+            background-color: black;
+            padding: 20px;
+            text-align:center;
+            font-size: 1.1em;
+        }
+        
+        ul {
+            float: right;
+            list-style-type:none;
+            margin-top: 25px;
+        }
+        
+        ul li{
+            display: inline-block;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 1s ease;
+            position: static;
+        }
+        
+        ul li a:hover{
+            background-color: white;
+            color: black;
+        }
+        
+        ul li.active a{
+            background-color: white;
+            color: black;
+        }
+        
+        
+        
+        .logo img{
+         border: 3px solid rgb(255, 0, 140);
+            float:left;
+            width: 113px;
+            height: 100px;
+
+        }
+        
+        #active{
+            border:2px solid rgb(179, 21, 147);
+        }
+        main {
+            max-width: 2560px;
+            margin: auto;
+        }
+        
+        .title{
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+        
+        .title h1{
+            color: white;
+            font-size: 80px;
+        }
+        
+        .button {
+            position: absolute;
+            top: 59%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .btn{
+            border: 1px solid white;
+            padding: 10px 30px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .btn:hover{
+            background-color: white;
+            color: black;
+        }
+        
+        h2 {
+            color: white;
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        
+        footer {
+            padding: 1%;
+            margin: 0%;
+            position: fixed;
+            bottom: 0%;
+            width: 100%;
+            background-color: black
+            
+        }
+        
+        footer p {
+            text-align: center;
+            color: white;
+        }
+    
+    .contact {
+        margin: 150px 650px;
+        padding: 40px;
+        border: black solid 1px;
+        background: white;
+        min-height: 500px;
+    }
+    header p { 
+        font-style: italic;
+        text-align: center;
+        font-weight: 900; }
+
+        .required {
+            font-weight: bold;
+            color:red;
+            
+        }
+
+        label {
+    float:left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+        }
+
+    input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 300x;
+        }
+
+input[type = "radio"] {width: 10px;}
+
+input[type ="checkbox"] {width: 15px;}
+ 
+ #button, #reset {
+     margin-top: .5em;
+     width: 8em;
+     background-color: rgb(255, 0, 106);
+     border: 2px solid black;
+
+ }
+
+ nav h2
+ {
+
+     padding-left: 200px;
+     font-size: 20px;
+
+ }
+
+
+
+ 
+ iframe 
+ {
+     padding-left: 35px;
+     padding-top: 50px;
+     position: absolute;
+     height: 400px;
+     width: 500px;
+ }
+
+ 
