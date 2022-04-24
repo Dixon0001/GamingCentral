@@ -153,9 +153,9 @@ footer p {
     .sonic
     {
         width: 100px;
-        position: absolute;
+        position: fixed;
         padding-left: 1400px;
-        padding-bottom: 700px;
+     
     }
    
   
