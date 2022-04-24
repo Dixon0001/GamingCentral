@@ -82,14 +82,20 @@ transform: translate(-50%, -50%);
 }
 
 .title h1{
+    padding-right:50px;
     color: white;
     font-size: 80px;
+}
+
+.title h2
+{
+    padding-right: 80px;
 }
 
 .button {
     position: absolute;
     top: 59%;
-    left: 49%;
+    left: 48%;
     transform: translate(-50%, -50%);
 }
 
@@ -139,10 +145,17 @@ footer p {
 }
 
     .nate {
-    position: relative;
-    height: 700px;
-    bottom: 500px;
-   padding-left: 1300px;
+    position: absolute;
+    padding-left: 600px;
+    padding-bottom: 400px;
+    }
+
+    .sonic
+    {
+        width: 100px;
+        position: absolute;
+        padding-left: 1400px;
+        padding-bottom: 700px;
     }
    
   
